@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENSOCK ANIMATION PLATFORM TUTORIAL 1</title>
+    <style>
+        body{
+            background-color: rgb(165, 230, 0);
+            height: 100%;
+            width: 100%;
+            font-style: italic;
+        }
+       /* #box{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(87, 10, 241);
+           
+        }*/
+        h1{
+            color: red;
+            font-size: 40px;
+        }
+        h2{
+            color: purple;
+            font-size: 40px;
+        }
+        h3{              
+            color: green;
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>THIS IS THE GREENSOCK TUTORIAL!</h1>
+    <h2>THIS IS THE ANIMATION TUTORIAL!</h2>
+    <h3>THIS IS THE GSAP TUTORIAL!</h3>
+
+    <div id="box">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //initial to final position tak run krne k liye:
+      //  gsap.to("#box" , {
+      //      x : 1000,
+      //      y : 500,
+      //      duration : 5,
+      //      delay : 1,
+      //      backgroundColor : "red",
+      //      rotate : 360
+
+      //  })
+      
+      //final to initial position tak run krne k liye:
+     // gsap.from("#box" , {
+     //       x : 1000,
+     //       y : 500,
+     //       duration : 3,
+     //       delay : 1,
+     //       backgroundColor : "red",
+     //       rotate : 360
+
+     //   })
+
+
+     //code to apply animation to multiple elements:
+     //animation for initial to final position:
+
+    // gsap.to("h1" , {
+    //    x : 700,
+    //    y : 300,
+    //    color : "green",
+    //    duration : 2,
+    //    delay : 1
+    // })
+
+    // gsap.to("h2" , {
+    //    x : 700,
+    //    y : 300,
+    //    color : "red",
+    //    duration : 2,
+    //    delay : 2
+    // })
+
+    // gsap.to("h3" , {
+    //    x : 700,
+    //    y : 300,
+    //    color : "black",
+    //    duration : 2,
+    //    delay : 3
+    // })
+
+
+    //animation for final to initial position:
+    // gsap.from("h1" , {
+    //    x : 700,
+    //    y : 300,
+    //    color : "green",
+    //    duration : 2,
+    //    delay : 1
+    // })
+
+    // gsap.from("h2" , {
+    //    x : 700,
+    //    y : 300,
+    //    color : "red",
+    //    duration : 2,
+    //    delay : 2
+    // })
+
+    // gsap.from("h3" , {
+    //    x : 700,
+    //    y : 300,
+    //    color : "black",
+    //    duration : 2,
+    //    delay : 3
+    // })
+
+    //gsap.to("h1" , {
+    //    x : 1530,
+    //    duration : 2,
+    //    stagger : 0.1,
+    //    repeat : -1,
+    //     yoyo : true
+    //})
+
+
+    //timeline:
+    //let tl = gsap.timeline()
+
+    //tl.to("h1" , {
+    //    x : 900
+    //})
+    //tl.to("h2" , {
+    //    x : 900
+    //})
+    //tl.to("h3" , {
+    //    x : 900
+    //})
+
+
+
+    </script>
+</body>
+</html>
